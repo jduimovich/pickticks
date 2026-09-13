@@ -1,0 +1,12 @@
+{
+  "name": "sens-ticket-picker",
+  "version": "1.0.0",
+  "description": "Round-robin picker for Ottawa Senators home games",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

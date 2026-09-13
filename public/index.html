@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sens Home Game Picker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Ottawa Senators &mdash; Home Game Picker</h1>
+    <div id="turn-banner" class="turn-banner">Loading&hellip;</div>
+  </header>
+
+  <main>
+    <section id="games-section">
+      <div id="calendar"></div>
+    </section>
+
+    <aside id="sidebar">
+      <div class="panel">
+        <h2>Rotation order</h2>
+        <ol id="user-list"></ol>
+        <form id="add-user-form">
+          <input type="text" id="new-user-name" placeholder="Add a player&hellip;" required />
+          <button type="submit">Add</button>
+        </form>
+      </div>
+
+      <div class="panel">
+        <h2>Controls</h2>
+        <button id="skip-btn">Skip current turn</button>
+        <button id="undo-btn">Undo last action</button>
+        <button id="reset-btn" class="danger">Reset all picks</button>
+      </div>
+
+      <div class="panel">
+        <h2>Add a game</h2>
+        <form id="add-game-form">
+          <input type="date" id="new-game-date" required />
+          <input type="text" id="new-game-opponent" placeholder="Opponent" required />
+          <input type="text" id="new-game-note" placeholder="Note (optional)" />
+          <button type="submit">Add game</button>
+        </form>
+      </div>
+    </aside>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,312 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Mike"
+    },
+    {
+      "id": 2,
+      "name": "Johnny"
+    },
+    {
+      "id": 3,
+      "name": "Gianni"
+    },
+    {
+      "id": 4,
+      "name": "Eclipse"
+    }
+  ],
+  "turnIndex": 0,
+  "nextUserId": 5,
+  "games": [
+    {
+      "id": 1,
+      "date": "2026-10-08",
+      "opponent": "Philadelphia Flyers",
+      "note": "",
+      "pickedBy": null
+    },
+    {
+      "id": 2,
+      "date": "2026-10-10",
+      "opponent": "Nashville Predators",
+      "note": "",
+      "pickedBy": null
+    },
+    {
+      "id": 3,
+      "date": "2026-10-13",
+      "opponent": "St. Louis Blues",
+      "note": "",
+      "pickedBy": null
+    },
+    {
+      "id": 4,
+      "date": "2026-10-15",
+      "opponent": "New York Islanders",
+      "note": "",
+      "pickedBy": null
+    },
+    {
+      "id": 5,
+      "date": "2026-10-21",
+      "opponent": "Florida Panthers",
+      "note": "",
+      "pickedBy": null
+    },
+    {
+      "id": 6,
+      "date": "2026-10-22",
+      "opponent": "San Jose Sharks",
+      "note": "",
+      "pickedBy": null
+    },
+    {
+      "id": 7,
+      "date": "2026-10-24",
+      "opponent": "New York Rangers",
+      "note": "",
+      "pickedBy": null
+    },
+    {
+      "id": 8,
+      "date": "2026-11-07",
+      "opponent": "Utah Mammoth",
+      "note": "",
+      "pickedBy": null
+    },
+    {
+      "id": 9,
+      "date": "2026-11-10",
+      "opponent": "Washington Capitals",
+      "note": "",
+      "pickedBy": null
+    },
+    {
+      "id": 10,
+      "date": "2026-11-12",
+      "opponent": "Colorado Avalanche",
+      "note": "",
+      "pickedBy": null
+    },
+    {
+      "id": 11,
+      "date": "2026-11-19",
+      "opponent": "Philadelphia Flyers",
+      "note": "",
+      "pickedBy": null
+    },
+    {
+      "id": 12,
+      "date": "2026-11-21",
+      "opponent": "Los Angeles Kings",
+      "note": "",
+      "pickedBy": null
+    },
+    {
+      "id": 13,
+      "date": "2026-11-23",
+      "opponent": "Calgary Flames",
+      "note": "",
+      "pickedBy": null
+    },
+    {
+      "id": 14,
+      "date": "2026-12-03",
+      "opponent": "New Jersey Devils",
+      "note": "",
+      "pickedBy": null
+    },
+    {
+      "id": 15,
+      "date": "2026-12-05",
+      "opponent": "Tampa Bay Lightning",
+      "note": "",
+      "pickedBy": null
+    },
+    {
+      "id": 16,
+      "date": "2026-12-08",
+      "opponent": "Anaheim Ducks",
+      "note": "",
+      "pickedBy": null
+    },
+    {
+      "id": 17,
+      "date": "2026-12-10",
+      "opponent": "Vegas Golden Knights",
+      "note": "",
+      "pickedBy": null
+    },
+    {
+      "id": 18,
+      "date": "2026-12-12",
+      "opponent": "Edmonton Oilers",
+      "note": "",
+      "pickedBy": null
+    },
+    {
+      "id": 19,
+      "date": "2026-12-14",
+      "opponent": "Buffalo Sabres",
+      "note": "",
+      "pickedBy": null
+    },
+    {
+      "id": 20,
+      "date": "2026-12-18",
+      "opponent": "Chicago Blackhawks",
+      "note": "NHL Global Series - Dusseldorf, Germany",
+      "pickedBy": null
+    },
+    {
+      "id": 21,
+      "date": "2026-12-20",
+      "opponent": "Chicago Blackhawks",
+      "note": "NHL Global Series - Dusseldorf, Germany",
+      "pickedBy": null
+    },
+    {
+      "id": 22,
+      "date": "2026-12-29",
+      "opponent": "Dallas Stars",
+      "note": "",
+      "pickedBy": null
+    },
+    {
+      "id": 23,
+      "date": "2026-12-31",
+      "opponent": "Pittsburgh Penguins",
+      "note": "",
+      "pickedBy": null
+    },
+    {
+      "id": 24,
+      "date": "2027-01-20",
+      "opponent": "Toronto Maple Leafs",
+      "note": "",
+      "pickedBy": null
+    },
+    {
+      "id": 25,
+      "date": "2027-01-23",
+      "opponent": "Columbus Blue Jackets",
+      "note": "",
+      "pickedBy": null
+    },
+    {
+      "id": 26,
+      "date": "2027-01-25",
+      "opponent": "Carolina Hurricanes",
+      "note": "",
+      "pickedBy": null
+    },
+    {
+      "id": 27,
+      "date": "2027-01-28",
+      "opponent": "Boston Bruins",
+      "note": "",
+      "pickedBy": null
+    },
+    {
+      "id": 28,
+      "date": "2027-01-30",
+      "opponent": "New York Rangers",
+      "note": "",
+      "pickedBy": null
+    },
+    {
+      "id": 29,
+      "date": "2027-02-09",
+      "opponent": "Columbus Blue Jackets",
+      "note": "",
+      "pickedBy": null
+    },
+    {
+      "id": 30,
+      "date": "2027-02-13",
+      "opponent": "Toronto Maple Leafs",
+      "note": "",
+      "pickedBy": null
+    },
+    {
+      "id": 31,
+      "date": "2027-02-25",
+      "opponent": "Detroit Red Wings",
+      "note": "",
+      "pickedBy": null
+    },
+    {
+      "id": 32,
+      "date": "2027-03-04",
+      "opponent": "Boston Bruins",
+      "note": "",
+      "pickedBy": null
+    },
+    {
+      "id": 33,
+      "date": "2027-03-06",
+      "opponent": "Seattle Kraken",
+      "note": "",
+      "pickedBy": null
+    },
+    {
+      "id": 34,
+      "date": "2027-03-07",
+      "opponent": "Buffalo Sabres",
+      "note": "",
+      "pickedBy": null
+    },
+    {
+      "id": 35,
+      "date": "2027-03-11",
+      "opponent": "Minnesota Wild",
+      "note": "",
+      "pickedBy": null
+    },
+    {
+      "id": 36,
+      "date": "2027-03-13",
+      "opponent": "Montreal Canadiens",
+      "note": "",
+      "pickedBy": null
+    },
+    {
+      "id": 37,
+      "date": "2027-03-14",
+      "opponent": "Vancouver Canucks",
+      "note": "",
+      "pickedBy": null
+    },
+    {
+      "id": 38,
+      "date": "2027-03-18",
+      "opponent": "Florida Panthers",
+      "note": "",
+      "pickedBy": null
+    },
+    {
+      "id": 39,
+      "date": "2027-03-20",
+      "opponent": "Tampa Bay Lightning",
+      "note": "",
+      "pickedBy": null
+    },
+    {
+      "id": 40,
+      "date": "2027-04-08",
+      "opponent": "Washington Capitals",
+      "note": "",
+      "pickedBy": null
+    },
+    {
+      "id": 41,
+      "date": "2027-04-10",
+      "opponent": "Montreal Canadiens",
+      "note": "",
+      "pickedBy": null
+    }
+  ],
+  "history": []
+}
