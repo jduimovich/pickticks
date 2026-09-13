@@ -38,16 +38,134 @@ header h1 {
 
 main {
   display: grid;
-  grid-template-columns: 1fr 320px;
+  grid-template-columns: 260px 1fr 320px;
   gap: 1.5rem;
   padding: 1.5rem;
-  max-width: 1300px;
+  max-width: 1560px;
   margin: 0 auto;
   align-items: start;
 }
 
+@media (max-width: 1100px) {
+  main { grid-template-columns: 1fr 320px; }
+  #summary { grid-column: 1 / -1; }
+}
+
 @media (max-width: 800px) {
   main { grid-template-columns: 1fr; }
+  #summary { grid-column: auto; }
+}
+
+#summary {
+  position: sticky;
+  top: 1.5rem;
+}
+
+.summary-card {
+  background: var(--panel-bg);
+  border-radius: 8px;
+  padding: 0.85rem 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  border-left: 4px solid var(--sens-red);
+}
+
+.summary-card h3 {
+  margin: 0 0 0.15rem 0;
+  font-size: 0.98rem;
+}
+
+.summary-count {
+  color: #777;
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.summary-games {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.summary-games li {
+  font-size: 0.82rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.summary-games .summary-date {
+  color: #777;
+  white-space: nowrap;
+}
+
+.summary-empty {
+  font-size: 0.82rem;
+  color: #999;
+  font-style: italic;
+}
+
+.summary-card-remaining {
+  border-left-color: #999;
+  border-left-style: dashed;
+}
+
+.summary-card-remaining .summary-count {
+  font-weight: 600;
+  color: var(--sens-black);
+}
+
+@media print {
+  header .turn-banner,
+  #sidebar,
+  .filter-bar,
+  .tile-body button,
+  #user-list .rename-btn {
+    display: none !important;
+  }
+
+  main {
+    grid-template-columns: 260px 1fr;
+    max-width: none;
+  }
+
+  #summary {
+    position: static;
+  }
+
+  .game-tile.picked {
+    opacity: 1;
+  }
+
+  body {
+    background: white;
+  }
+}
+
+.filter-bar {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.filter-btn {
+  background: white;
+  color: var(--sens-black);
+  border: 1px solid var(--border);
+}
+
+.filter-btn.active {
+  background: var(--sens-black);
+  color: white;
+  border-color: var(--sens-black);
+}
+
+.calendar-empty {
+  color: #777;
+  font-style: italic;
 }
 
 .month-group {
@@ -155,6 +273,12 @@ button:disabled { background: #ccc; cursor: not-allowed; }
 
 button.danger { background: #555; }
 
+button.secondary {
+  background: white;
+  color: var(--sens-black);
+  border: 1px solid var(--border);
+}
+
 .panel {
   background: var(--panel-bg);
   border-radius: 8px;
@@ -176,6 +300,11 @@ button.danger { background: #555; }
 #user-list li.active {
   font-weight: 700;
   color: var(--sens-red);
+}
+
+#user-list .ticket-count {
+  color: #777;
+  font-size: 0.82rem;
 }
 
 #user-list .rename-btn {

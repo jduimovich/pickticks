@@ -2,107 +2,120 @@
   "users": [
     {
       "id": 1,
-      "name": "Mike"
+      "name": "Mike",
+      "maxGames": 11
     },
     {
       "id": 2,
-      "name": "Johnny"
+      "name": "Johnny",
+      "maxGames": 6
     },
     {
       "id": 3,
-      "name": "Gianni"
-    },
-    {
-      "id": 4,
-      "name": "Eclipse"
+      "name": "Gianni",
+      "maxGames": 8
     }
   ],
   "turnIndex": 0,
   "nextUserId": 5,
   "games": [
     {
+      "id": 42,
+      "date": "2026-09-23",
+      "opponent": "Toronto Maple Leafs",
+      "note": "Preseason",
+      "pickedBy": 1
+    },
+    {
+      "id": 43,
+      "date": "2026-09-26",
+      "opponent": "Montreal Canadiens",
+      "note": "Preseason",
+      "pickedBy": 2
+    },
+    {
       "id": 1,
       "date": "2026-10-08",
       "opponent": "Philadelphia Flyers",
       "note": "",
-      "pickedBy": null
+      "pickedBy": 3
     },
     {
       "id": 2,
       "date": "2026-10-10",
       "opponent": "Nashville Predators",
       "note": "",
-      "pickedBy": null
+      "pickedBy": 1
     },
     {
       "id": 3,
       "date": "2026-10-13",
       "opponent": "St. Louis Blues",
       "note": "",
-      "pickedBy": null
+      "pickedBy": 2
     },
     {
       "id": 4,
       "date": "2026-10-15",
       "opponent": "New York Islanders",
       "note": "",
-      "pickedBy": null
+      "pickedBy": 3
     },
     {
       "id": 5,
       "date": "2026-10-21",
       "opponent": "Florida Panthers",
       "note": "",
-      "pickedBy": null
+      "pickedBy": 1
     },
     {
       "id": 6,
       "date": "2026-10-22",
       "opponent": "San Jose Sharks",
       "note": "",
-      "pickedBy": null
+      "pickedBy": 3
     },
     {
       "id": 7,
       "date": "2026-10-24",
       "opponent": "New York Rangers",
       "note": "",
-      "pickedBy": null
+      "pickedBy": 2
     },
     {
       "id": 8,
       "date": "2026-11-07",
       "opponent": "Utah Mammoth",
       "note": "",
-      "pickedBy": null
+      "pickedBy": 1
     },
     {
       "id": 9,
       "date": "2026-11-10",
       "opponent": "Washington Capitals",
       "note": "",
-      "pickedBy": null
+      "pickedBy": 1
     },
     {
       "id": 10,
       "date": "2026-11-12",
       "opponent": "Colorado Avalanche",
       "note": "",
-      "pickedBy": null
+      "pickedBy": 3
     },
     {
       "id": 11,
       "date": "2026-11-19",
       "opponent": "Philadelphia Flyers",
       "note": "",
-      "pickedBy": null
+      "pickedBy": 1
     },
     {
       "id": 12,
       "date": "2026-11-21",
       "opponent": "Los Angeles Kings",
       "note": "",
-      "pickedBy": null
+      "pickedBy": 1
     },
     {
       "id": 13,
@@ -116,7 +129,7 @@
       "date": "2026-12-03",
       "opponent": "New Jersey Devils",
       "note": "",
-      "pickedBy": null
+      "pickedBy": 2
     },
     {
       "id": 15,
@@ -130,14 +143,14 @@
       "date": "2026-12-08",
       "opponent": "Anaheim Ducks",
       "note": "",
-      "pickedBy": null
+      "pickedBy": 1
     },
     {
       "id": 17,
       "date": "2026-12-10",
       "opponent": "Vegas Golden Knights",
       "note": "",
-      "pickedBy": null
+      "pickedBy": 3
     },
     {
       "id": 18,
@@ -151,7 +164,7 @@
       "date": "2026-12-14",
       "opponent": "Buffalo Sabres",
       "note": "",
-      "pickedBy": null
+      "pickedBy": 1
     },
     {
       "id": 20,
@@ -165,7 +178,7 @@
       "date": "2026-12-20",
       "opponent": "Chicago Blackhawks",
       "note": "NHL Global Series - Dusseldorf, Germany",
-      "pickedBy": null
+      "pickedBy": 2
     },
     {
       "id": 22,
@@ -179,21 +192,21 @@
       "date": "2026-12-31",
       "opponent": "Pittsburgh Penguins",
       "note": "",
-      "pickedBy": null
+      "pickedBy": 3
     },
     {
       "id": 24,
       "date": "2027-01-20",
       "opponent": "Toronto Maple Leafs",
       "note": "",
-      "pickedBy": null
+      "pickedBy": 1
     },
     {
       "id": 25,
       "date": "2027-01-23",
       "opponent": "Columbus Blue Jackets",
       "note": "",
-      "pickedBy": null
+      "pickedBy": 2
     },
     {
       "id": 26,
@@ -207,7 +220,7 @@
       "date": "2027-01-28",
       "opponent": "Boston Bruins",
       "note": "",
-      "pickedBy": null
+      "pickedBy": 3
     },
     {
       "id": 28,
@@ -228,7 +241,7 @@
       "date": "2027-02-13",
       "opponent": "Toronto Maple Leafs",
       "note": "",
-      "pickedBy": null
+      "pickedBy": 1
     },
     {
       "id": 31,
@@ -249,7 +262,7 @@
       "date": "2027-03-06",
       "opponent": "Seattle Kraken",
       "note": "",
-      "pickedBy": null
+      "pickedBy": 3
     },
     {
       "id": 34,
@@ -308,5 +321,131 @@
       "pickedBy": null
     }
   ],
-  "history": []
+  "history": [
+    {
+      "type": "pick",
+      "gameId": 42,
+      "turnIndexBefore": 0
+    },
+    {
+      "type": "pick",
+      "gameId": 43,
+      "turnIndexBefore": 1
+    },
+    {
+      "type": "pick",
+      "gameId": 1,
+      "turnIndexBefore": 2
+    },
+    {
+      "type": "pick",
+      "gameId": 2,
+      "turnIndexBefore": 0
+    },
+    {
+      "type": "pick",
+      "gameId": 3,
+      "turnIndexBefore": 1
+    },
+    {
+      "type": "pick",
+      "gameId": 4,
+      "turnIndexBefore": 2
+    },
+    {
+      "type": "pick",
+      "gameId": 5,
+      "turnIndexBefore": 0
+    },
+    {
+      "type": "pick",
+      "gameId": 7,
+      "turnIndexBefore": 1
+    },
+    {
+      "type": "pick",
+      "gameId": 6,
+      "turnIndexBefore": 2
+    },
+    {
+      "type": "pick",
+      "gameId": 16,
+      "turnIndexBefore": 0
+    },
+    {
+      "type": "pick",
+      "gameId": 25,
+      "turnIndexBefore": 1
+    },
+    {
+      "type": "pick",
+      "gameId": 33,
+      "turnIndexBefore": 2
+    },
+    {
+      "type": "pick",
+      "gameId": 30,
+      "turnIndexBefore": 0
+    },
+    {
+      "type": "pick",
+      "gameId": 14,
+      "turnIndexBefore": 1
+    },
+    {
+      "type": "pick",
+      "gameId": 17,
+      "turnIndexBefore": 2
+    },
+    {
+      "type": "pick",
+      "gameId": 19,
+      "turnIndexBefore": 0
+    },
+    {
+      "type": "pick",
+      "gameId": 21,
+      "turnIndexBefore": 1
+    },
+    {
+      "type": "pick",
+      "gameId": 23,
+      "turnIndexBefore": 2
+    },
+    {
+      "type": "pick",
+      "gameId": 24,
+      "turnIndexBefore": 0
+    },
+    {
+      "type": "pick",
+      "gameId": 27,
+      "turnIndexBefore": 2
+    },
+    {
+      "type": "pick",
+      "gameId": 8,
+      "turnIndexBefore": 0
+    },
+    {
+      "type": "pick",
+      "gameId": 10,
+      "turnIndexBefore": 2
+    },
+    {
+      "type": "pick",
+      "gameId": 9,
+      "turnIndexBefore": 0
+    },
+    {
+      "type": "pick",
+      "gameId": 12,
+      "turnIndexBefore": 0
+    },
+    {
+      "type": "pick",
+      "gameId": 11,
+      "turnIndexBefore": 0
+    }
+  ]
 }

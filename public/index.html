@@ -13,7 +13,16 @@
   </header>
 
   <main>
+    <aside id="summary">
+      <div id="user-summary"></div>
+    </aside>
+
     <section id="games-section">
+      <div id="filter-bar" class="filter-bar">
+        <button type="button" class="filter-btn active" data-filter="all">Show all</button>
+        <button type="button" class="filter-btn" data-filter="unselected">Show unselected</button>
+        <button type="button" class="filter-btn" data-filter="selected">Show selected</button>
+      </div>
       <div id="calendar"></div>
     </section>
 
