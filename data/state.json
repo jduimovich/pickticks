@@ -24,98 +24,98 @@
       "date": "2026-09-23",
       "opponent": "Toronto Maple Leafs",
       "note": "Preseason",
-      "pickedBy": 1
+      "pickedBy": null
     },
     {
       "id": 43,
       "date": "2026-09-26",
       "opponent": "Montreal Canadiens",
       "note": "Preseason",
-      "pickedBy": 2
+      "pickedBy": null
     },
     {
       "id": 1,
       "date": "2026-10-08",
       "opponent": "Philadelphia Flyers",
       "note": "",
-      "pickedBy": 3
+      "pickedBy": null
     },
     {
       "id": 2,
       "date": "2026-10-10",
       "opponent": "Nashville Predators",
       "note": "",
-      "pickedBy": 1
+      "pickedBy": null
     },
     {
       "id": 3,
       "date": "2026-10-13",
       "opponent": "St. Louis Blues",
       "note": "",
-      "pickedBy": 2
+      "pickedBy": null
     },
     {
       "id": 4,
       "date": "2026-10-15",
       "opponent": "New York Islanders",
       "note": "",
-      "pickedBy": 3
+      "pickedBy": null
     },
     {
       "id": 5,
       "date": "2026-10-21",
       "opponent": "Florida Panthers",
       "note": "",
-      "pickedBy": 1
+      "pickedBy": null
     },
     {
       "id": 6,
       "date": "2026-10-22",
       "opponent": "San Jose Sharks",
       "note": "",
-      "pickedBy": 3
+      "pickedBy": null
     },
     {
       "id": 7,
       "date": "2026-10-24",
       "opponent": "New York Rangers",
       "note": "",
-      "pickedBy": 2
+      "pickedBy": null
     },
     {
       "id": 8,
       "date": "2026-11-07",
       "opponent": "Utah Mammoth",
       "note": "",
-      "pickedBy": 1
+      "pickedBy": null
     },
     {
       "id": 9,
       "date": "2026-11-10",
       "opponent": "Washington Capitals",
       "note": "",
-      "pickedBy": 1
+      "pickedBy": null
     },
     {
       "id": 10,
       "date": "2026-11-12",
       "opponent": "Colorado Avalanche",
       "note": "",
-      "pickedBy": 3
+      "pickedBy": null
     },
     {
       "id": 11,
       "date": "2026-11-19",
       "opponent": "Philadelphia Flyers",
       "note": "",
-      "pickedBy": 1
+      "pickedBy": null
     },
     {
       "id": 12,
       "date": "2026-11-21",
       "opponent": "Los Angeles Kings",
       "note": "",
-      "pickedBy": 1
+      "pickedBy": null
     },
     {
       "id": 13,
@@ -129,7 +129,7 @@
       "date": "2026-12-03",
       "opponent": "New Jersey Devils",
       "note": "",
-      "pickedBy": 2
+      "pickedBy": null
     },
     {
       "id": 15,
@@ -143,14 +143,14 @@
       "date": "2026-12-08",
       "opponent": "Anaheim Ducks",
       "note": "",
-      "pickedBy": 1
+      "pickedBy": null
     },
     {
       "id": 17,
       "date": "2026-12-10",
       "opponent": "Vegas Golden Knights",
       "note": "",
-      "pickedBy": 3
+      "pickedBy": null
     },
     {
       "id": 18,
@@ -164,7 +164,7 @@
       "date": "2026-12-14",
       "opponent": "Buffalo Sabres",
       "note": "",
-      "pickedBy": 1
+      "pickedBy": null
     },
     {
       "id": 20,
@@ -178,7 +178,7 @@
       "date": "2026-12-20",
       "opponent": "Chicago Blackhawks",
       "note": "NHL Global Series - Dusseldorf, Germany",
-      "pickedBy": 2
+      "pickedBy": null
     },
     {
       "id": 22,
@@ -192,21 +192,21 @@
       "date": "2026-12-31",
       "opponent": "Pittsburgh Penguins",
       "note": "",
-      "pickedBy": 3
+      "pickedBy": null
     },
     {
       "id": 24,
       "date": "2027-01-20",
       "opponent": "Toronto Maple Leafs",
       "note": "",
-      "pickedBy": 1
+      "pickedBy": null
     },
     {
       "id": 25,
       "date": "2027-01-23",
       "opponent": "Columbus Blue Jackets",
       "note": "",
-      "pickedBy": 2
+      "pickedBy": null
     },
     {
       "id": 26,
@@ -220,7 +220,7 @@
       "date": "2027-01-28",
       "opponent": "Boston Bruins",
       "note": "",
-      "pickedBy": 3
+      "pickedBy": null
     },
     {
       "id": 28,
@@ -241,7 +241,7 @@
       "date": "2027-02-13",
       "opponent": "Toronto Maple Leafs",
       "note": "",
-      "pickedBy": 1
+      "pickedBy": null
     },
     {
       "id": 31,
@@ -262,7 +262,7 @@
       "date": "2027-03-06",
       "opponent": "Seattle Kraken",
       "note": "",
-      "pickedBy": 3
+      "pickedBy": null
     },
     {
       "id": 34,
@@ -321,131 +321,5 @@
       "pickedBy": null
     }
   ],
-  "history": [
-    {
-      "type": "pick",
-      "gameId": 42,
-      "turnIndexBefore": 0
-    },
-    {
-      "type": "pick",
-      "gameId": 43,
-      "turnIndexBefore": 1
-    },
-    {
-      "type": "pick",
-      "gameId": 1,
-      "turnIndexBefore": 2
-    },
-    {
-      "type": "pick",
-      "gameId": 2,
-      "turnIndexBefore": 0
-    },
-    {
-      "type": "pick",
-      "gameId": 3,
-      "turnIndexBefore": 1
-    },
-    {
-      "type": "pick",
-      "gameId": 4,
-      "turnIndexBefore": 2
-    },
-    {
-      "type": "pick",
-      "gameId": 5,
-      "turnIndexBefore": 0
-    },
-    {
-      "type": "pick",
-      "gameId": 7,
-      "turnIndexBefore": 1
-    },
-    {
-      "type": "pick",
-      "gameId": 6,
-      "turnIndexBefore": 2
-    },
-    {
-      "type": "pick",
-      "gameId": 16,
-      "turnIndexBefore": 0
-    },
-    {
-      "type": "pick",
-      "gameId": 25,
-      "turnIndexBefore": 1
-    },
-    {
-      "type": "pick",
-      "gameId": 33,
-      "turnIndexBefore": 2
-    },
-    {
-      "type": "pick",
-      "gameId": 30,
-      "turnIndexBefore": 0
-    },
-    {
-      "type": "pick",
-      "gameId": 14,
-      "turnIndexBefore": 1
-    },
-    {
-      "type": "pick",
-      "gameId": 17,
-      "turnIndexBefore": 2
-    },
-    {
-      "type": "pick",
-      "gameId": 19,
-      "turnIndexBefore": 0
-    },
-    {
-      "type": "pick",
-      "gameId": 21,
-      "turnIndexBefore": 1
-    },
-    {
-      "type": "pick",
-      "gameId": 23,
-      "turnIndexBefore": 2
-    },
-    {
-      "type": "pick",
-      "gameId": 24,
-      "turnIndexBefore": 0
-    },
-    {
-      "type": "pick",
-      "gameId": 27,
-      "turnIndexBefore": 2
-    },
-    {
-      "type": "pick",
-      "gameId": 8,
-      "turnIndexBefore": 0
-    },
-    {
-      "type": "pick",
-      "gameId": 10,
-      "turnIndexBefore": 2
-    },
-    {
-      "type": "pick",
-      "gameId": 9,
-      "turnIndexBefore": 0
-    },
-    {
-      "type": "pick",
-      "gameId": 12,
-      "turnIndexBefore": 0
-    },
-    {
-      "type": "pick",
-      "gameId": 11,
-      "turnIndexBefore": 0
-    }
-  ]
+  "history": []
 }
