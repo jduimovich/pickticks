@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Mike",
-      "maxGames": 11
+      "maxGames": 7
     },
     {
       "id": 2,
@@ -13,10 +13,10 @@
     {
       "id": 3,
       "name": "Gianni",
-      "maxGames": 8
+      "maxGames": 7
     }
   ],
-  "turnIndex": 0,
+  "turnIndex": 2,
   "nextUserId": 5,
   "games": [
     {
@@ -59,7 +59,7 @@
       "date": "2026-10-15",
       "opponent": "New York Islanders",
       "note": "",
-      "pickedBy": null
+      "pickedBy": 1
     },
     {
       "id": 5,
@@ -73,7 +73,7 @@
       "date": "2026-10-22",
       "opponent": "San Jose Sharks",
       "note": "",
-      "pickedBy": null
+      "pickedBy": 2
     },
     {
       "id": 7,
@@ -94,21 +94,21 @@
       "date": "2026-11-10",
       "opponent": "Washington Capitals",
       "note": "",
-      "pickedBy": null
+      "pickedBy": 3
     },
     {
       "id": 10,
       "date": "2026-11-12",
       "opponent": "Colorado Avalanche",
       "note": "",
-      "pickedBy": null
+      "pickedBy": 2
     },
     {
       "id": 11,
       "date": "2026-11-19",
       "opponent": "Philadelphia Flyers",
       "note": "",
-      "pickedBy": null
+      "pickedBy": 3
     },
     {
       "id": 12,
@@ -122,14 +122,14 @@
       "date": "2026-11-23",
       "opponent": "Calgary Flames",
       "note": "",
-      "pickedBy": null
+      "pickedBy": 1
     },
     {
       "id": 14,
       "date": "2026-12-03",
       "opponent": "New Jersey Devils",
       "note": "",
-      "pickedBy": null
+      "pickedBy": 3
     },
     {
       "id": 15,
@@ -150,14 +150,14 @@
       "date": "2026-12-10",
       "opponent": "Vegas Golden Knights",
       "note": "",
-      "pickedBy": null
+      "pickedBy": 2
     },
     {
       "id": 18,
       "date": "2026-12-12",
       "opponent": "Edmonton Oilers",
       "note": "",
-      "pickedBy": null
+      "pickedBy": 1
     },
     {
       "id": 19,
@@ -192,14 +192,14 @@
       "date": "2026-12-31",
       "opponent": "Pittsburgh Penguins",
       "note": "",
-      "pickedBy": null
+      "pickedBy": 1
     },
     {
       "id": 24,
       "date": "2027-01-20",
       "opponent": "Toronto Maple Leafs",
       "note": "",
-      "pickedBy": null
+      "pickedBy": 2
     },
     {
       "id": 25,
@@ -220,21 +220,21 @@
       "date": "2027-01-28",
       "opponent": "Boston Bruins",
       "note": "",
-      "pickedBy": null
+      "pickedBy": 3
     },
     {
       "id": 28,
       "date": "2027-01-30",
       "opponent": "New York Rangers",
       "note": "",
-      "pickedBy": null
+      "pickedBy": 2
     },
     {
       "id": 29,
       "date": "2027-02-09",
       "opponent": "Columbus Blue Jackets",
       "note": "",
-      "pickedBy": null
+      "pickedBy": 1
     },
     {
       "id": 30,
@@ -248,14 +248,14 @@
       "date": "2027-02-25",
       "opponent": "Detroit Red Wings",
       "note": "",
-      "pickedBy": null
+      "pickedBy": 3
     },
     {
       "id": 32,
       "date": "2027-03-04",
       "opponent": "Boston Bruins",
       "note": "",
-      "pickedBy": null
+      "pickedBy": 1
     },
     {
       "id": 33,
@@ -283,14 +283,14 @@
       "date": "2027-03-13",
       "opponent": "Montreal Canadiens",
       "note": "",
-      "pickedBy": null
+      "pickedBy": 2
     },
     {
       "id": 37,
       "date": "2027-03-14",
       "opponent": "Vancouver Canucks",
       "note": "",
-      "pickedBy": null
+      "pickedBy": 3
     },
     {
       "id": 38,
@@ -307,11 +307,18 @@
       "pickedBy": null
     },
     {
+      "id": 44,
+      "date": "2027-04-04",
+      "opponent": "detroit",
+      "note": "",
+      "pickedBy": 1
+    },
+    {
       "id": 40,
       "date": "2027-04-08",
       "opponent": "Washington Capitals",
       "note": "",
-      "pickedBy": null
+      "pickedBy": 3
     },
     {
       "id": 41,
@@ -321,5 +328,197 @@
       "pickedBy": null
     }
   ],
-  "history": []
+  "history": [
+    {
+      "type": "pick",
+      "gameId": 18,
+      "turnIndexBefore": 0
+    },
+    {
+      "type": "skip",
+      "turnIndexBefore": 1
+    },
+    {
+      "type": "pick",
+      "gameId": 27,
+      "turnIndexBefore": 2
+    },
+    {
+      "type": "skip",
+      "turnIndexBefore": 0
+    },
+    {
+      "type": "pick",
+      "gameId": 6,
+      "turnIndexBefore": 1
+    },
+    {
+      "type": "skip",
+      "turnIndexBefore": 2
+    },
+    {
+      "type": "pick",
+      "gameId": 23,
+      "turnIndexBefore": 0
+    },
+    {
+      "type": "skip",
+      "turnIndexBefore": 1
+    },
+    {
+      "type": "pick",
+      "gameId": 11,
+      "turnIndexBefore": 2
+    },
+    {
+      "type": "skip",
+      "turnIndexBefore": 0
+    },
+    {
+      "type": "pick",
+      "gameId": 10,
+      "turnIndexBefore": 1
+    },
+    {
+      "type": "skip",
+      "turnIndexBefore": 2
+    },
+    {
+      "type": "pick",
+      "gameId": 44,
+      "turnIndexBefore": 0
+    },
+    {
+      "type": "skip",
+      "turnIndexBefore": 1
+    },
+    {
+      "type": "pick",
+      "gameId": 9,
+      "turnIndexBefore": 2
+    },
+    {
+      "type": "skip",
+      "turnIndexBefore": 0
+    },
+    {
+      "type": "pick",
+      "gameId": 17,
+      "turnIndexBefore": 1
+    },
+    {
+      "type": "skip",
+      "turnIndexBefore": 2
+    },
+    {
+      "type": "pick",
+      "gameId": 32,
+      "turnIndexBefore": 0
+    },
+    {
+      "type": "skip",
+      "turnIndexBefore": 1
+    },
+    {
+      "type": "pick",
+      "gameId": 14,
+      "turnIndexBefore": 2
+    },
+    {
+      "type": "skip",
+      "turnIndexBefore": 0
+    },
+    {
+      "type": "pick",
+      "gameId": 24,
+      "turnIndexBefore": 1
+    },
+    {
+      "type": "skip",
+      "turnIndexBefore": 2
+    },
+    {
+      "type": "pick",
+      "gameId": 13,
+      "turnIndexBefore": 0
+    },
+    {
+      "type": "skip",
+      "turnIndexBefore": 1
+    },
+    {
+      "type": "pick",
+      "gameId": 31,
+      "turnIndexBefore": 2
+    },
+    {
+      "type": "skip",
+      "turnIndexBefore": 0
+    },
+    {
+      "type": "pick",
+      "gameId": 29,
+      "turnIndexBefore": 1
+    },
+    {
+      "type": "skip",
+      "turnIndexBefore": 2
+    },
+    {
+      "type": "skip",
+      "turnIndexBefore": 0
+    },
+    {
+      "type": "unpick",
+      "gameId": 29,
+      "ownerId": 2,
+      "turnIndexBefore": 1
+    },
+    {
+      "type": "pick",
+      "gameId": 28,
+      "turnIndexBefore": 1
+    },
+    {
+      "type": "skip",
+      "turnIndexBefore": 2
+    },
+    {
+      "type": "pick",
+      "gameId": 29,
+      "turnIndexBefore": 0
+    },
+    {
+      "type": "skip",
+      "turnIndexBefore": 1
+    },
+    {
+      "type": "pick",
+      "gameId": 37,
+      "turnIndexBefore": 2
+    },
+    {
+      "type": "skip",
+      "turnIndexBefore": 0
+    },
+    {
+      "type": "pick",
+      "gameId": 36,
+      "turnIndexBefore": 1
+    },
+    {
+      "type": "skip",
+      "turnIndexBefore": 2
+    },
+    {
+      "type": "pick",
+      "gameId": 4,
+      "turnIndexBefore": 0
+    },
+    {
+      "type": "pick",
+      "gameId": 40,
+      "turnIndexBefore": 2
+    }
+  ]
 }
